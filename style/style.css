@@ -1,4 +1,4 @@
-body{   
+body {   
     background-color: #333;
     color: #fff;
     font-family: 'Roboto Slab', serif;
@@ -7,43 +7,56 @@ body{
     margin: 0;
 }
 
-header{
+header {
     background-color:gray;
     color: #fff;
 }
 
-p{
+p {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+.container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-#navbar{
+#navbar {
     background-color: #333;
     color: #fff;
 }
 
-#navber ul{
+#navber ul {
     padding: 0;
     list-style: none;
 }
 
-#navbar li{
+#navbar li {
     display: inline;
 }
 
-#navbar a{
+#navbar a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
 }
 
-#showcase{
+#showcase {
     background-image: url(../img/back1.jpg);
     background-position: center;
     min-height: 300px;
@@ -52,7 +65,7 @@ p{
     background-attachment: fixed;
 }
 
-#showcase h1{
+#showcase h1 {
     color: #fff;
     font-size: 50px;
     text-shadow: 2px 2px black;
@@ -60,12 +73,12 @@ p{
     padding-top: 30px;
 }
 
-#showcase p{
+#showcase p {
     color: #fff;
     text-shadow: 2px 2px black;
 }
 
-#main{
+#main {
     float: left;
     width: 70%;
     padding: 0 30px;
@@ -73,7 +86,7 @@ p{
 
 }
 
-#sidebar{
+#sidebar {
     float: right;
     width: 30%;
     background: gray;
@@ -82,7 +95,11 @@ p{
     box-sizing: border-box;
 }
 
-#footer{
+.fab {
+    font-size: 30px;
+}
+
+#footer {
     background: #333;
     color: #fff;
     text-align: center;
@@ -91,13 +108,13 @@ p{
     font-size: smaller;
 }
 
-@media(max-width:600px){
-    #main{
+@media(max-width:600px) {
+    #main {
         width: 100%;
         float: none;
     }
 
-    #sidebar{
+    #sidebar {
         width: 100%;
         float: none;
     }
