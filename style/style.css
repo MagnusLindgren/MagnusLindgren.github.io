@@ -97,7 +97,16 @@ a:hover {
 
 .fab {
     font-size: 30px;
-    margin: 15px 5px 15px 5px;
+    margin: 25px 5px 15px 5px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    color: #fff;
+    background-color: gray;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 #footer {
