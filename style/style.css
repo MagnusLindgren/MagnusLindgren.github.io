@@ -26,7 +26,8 @@ a:visited {
 }
 
 a:hover {
-    font-size: 20px;
+    color: #333;
+    background-color: #fff;
 }
 
 .container {
@@ -54,6 +55,10 @@ a:hover {
     text-decoration: none;
     font-size: 18px;
     padding-right: 15px;
+}
+
+#navbar a:hover {
+    color: #333;
 }
 
 #showcase {
